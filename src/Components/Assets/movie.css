@@ -20,6 +20,10 @@ body {
   text-align: center;
   margin-bottom: 20px;
 
+
+}
+.title a {
+  text-decoration: none;
 }
 
 .title h1 {

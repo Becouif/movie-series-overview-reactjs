@@ -67,7 +67,8 @@ function MovieOverview() {
     <div className="moviesearch">
 
       <div className="title">
-        <h1>Movie Overview</h1>
+        
+        <a href="https://www.w3schools.com">Visit W3Schools.com!</a>
       </div>
       <div className="search">
         <input name="search" onChange={handleChange} placeholder="enter movie name to search" value={userSearch} />

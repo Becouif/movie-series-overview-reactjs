@@ -72,7 +72,8 @@ function MovieOverview() {
     <div className="moviesearch">
 
       <div className="title">
-        <h1>Movie Overview</h1>
+        {/* <h1>Movie Overview</h1> */}
+        <a href="/"><h1>Movie Overview</h1></a>
       </div>
       <div className="search">
         <input name="search" onChange={handleChange} placeholder="enter movie name to search" value={userSearch} />
