@@ -3,7 +3,7 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  min-height: 2.5rem;
+  max-height: 2.5rem;
   text-decoration: none;
   font-family: "Nunito Sans", sans-serif;
   font-optical-sizing: auto;
