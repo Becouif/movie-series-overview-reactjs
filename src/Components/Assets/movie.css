@@ -68,8 +68,8 @@ body {
 }
 
 .card__img img {
-  width: 100%;
-  height: auto;
+  min-width: 100%;
+  min-height: auto;
   border-radius: 8px 0 0 8px;
 }
 

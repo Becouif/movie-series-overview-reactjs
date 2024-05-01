@@ -96,7 +96,7 @@ function MovieOverview() {
             <p>released: <span className="item">{movieInfo.released}</span></p>
             <p>director: <span className="item">{movieInfo.director}</span></p>
             <p>country: <span className="item">{movieInfo.country}</span></p>
-            <p>actor: <span className="item">{movieInfo.actor}</span></p>
+            
             <p>writer: <span className="item">{movieInfo.writer}</span></p>
           </div>
         </div>
