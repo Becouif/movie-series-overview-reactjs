@@ -104,7 +104,7 @@ span.item {
   }
   .card {
     margin: 2rem;
-    margin-left: 3.5rem;
+    /* margin-left: 3.5rem; */
     width: 21rem;
       flex-direction: column;
       margin-bottom: -34rem; /* Stack elements vertically */
