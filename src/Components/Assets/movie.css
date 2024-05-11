@@ -103,7 +103,7 @@ span.item {
     width: 100%;
   }
   .card {
-    margin: 2rem;
+    /* margin: 2rem; */
     margin-right: 3.5rem;
     width: 21rem;
       flex-direction: column;
