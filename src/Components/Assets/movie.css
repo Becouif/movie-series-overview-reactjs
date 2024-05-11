@@ -99,6 +99,9 @@ span.item {
 
 /* Media query for mobile and iPad screen sizes */
 @media only screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
   .card {
     margin: 2rem;
     margin-left: 3.5rem;
