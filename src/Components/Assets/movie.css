@@ -100,8 +100,9 @@ span.item {
 /* Media query for mobile and iPad screen sizes */
 @media only screen and (max-width: 768px) {
   .card {
-    margin-left: 2rem;
-    width: 23rem;
+    margin: 2rem;
+    margin-left: 3.5rem;
+    width: 21rem;
       flex-direction: column;
       margin-bottom: -34rem; /* Stack elements vertically */
   }
