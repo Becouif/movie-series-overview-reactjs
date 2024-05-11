@@ -1,8 +1,10 @@
 
 
 footer {
-  display: grid;
-  position: fixed;
+  /* display: grid; */
+  margin-top: 36rem;
+  position: relative;
+  left: 0;
   bottom: 0;
   width: 100%;
   max-height: 2.5rem;

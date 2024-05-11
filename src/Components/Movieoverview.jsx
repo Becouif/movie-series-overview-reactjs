@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Assets/movie.css";
+// import Footer from "./Footer.jsx";
 
 // https://www.omdbapi.com/?t=${this.enteredMovieName}&apikey=ec7b2d29    
 
@@ -102,7 +103,7 @@ function MovieOverview() {
         </div>
       )}
 
-
+      
     </div>
   )
 }

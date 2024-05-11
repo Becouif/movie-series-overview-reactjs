@@ -56,12 +56,15 @@ body {
 }
 
 .card {
+  align-items: center;
+  width: 50rem;
   display: flex;
-  position:fixed;
+  flex-direction: column;
+  /* position:fixed; */
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
+  margin-bottom: -34rem;
 }
 
 .card__img {
@@ -69,7 +72,7 @@ body {
 }
 
 .card__img img {
-  width: 100%;
+  width: 20rem;
   height: auto;
   border-radius: 8px 0 0 8px;
 }
@@ -91,5 +94,25 @@ span.item {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+
+
+/* Media query for mobile and iPad screen sizes */
+@media only screen and (max-width: 768px) {
+  .card {
+    margin-left: 2rem;
+    width: 23rem;
+      flex-direction: column;
+      margin-bottom: -34rem; /* Stack elements vertically */
+  }
+
+  .card__img {
+      order: 1; /* Change the order of image */
+  }
+
+  .card__desc {
+    width: 20rem;
+      order: 2; /* Change the order of description */
+  }
 }
 
